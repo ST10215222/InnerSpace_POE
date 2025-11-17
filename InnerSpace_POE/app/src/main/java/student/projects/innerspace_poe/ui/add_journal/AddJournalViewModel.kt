@@ -6,8 +6,11 @@ import androidx.lifecycle.ViewModel
 
 class AddJournalViewModel : ViewModel() {
 
-    private val _text = MutableLiveData<String>().apply {
-        value = "This is dashboard Fragment"
+    private val _entryText = MutableLiveData<String>()
+    val entryText: LiveData<String> get() = _entryText
+
+    fun saveEntry(text: String) {
+        _entryText.value = text
+        // TODO: Persist to local database or file
     }
-    val text: LiveData<String> = _text
 }
