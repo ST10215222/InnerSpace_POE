@@ -1,0 +1,22 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Soft shadow -->
+    <item>
+        <shape>
+            <solid android:color="@android:color/transparent" />
+            <corners android:radius="22dp" />
+            <padding android:bottom="6dp"/>
+            <size android:width="0dp" android:height="70dp"/>
+        </shape>
+    </item>
+
+    <!-- Main gradient -->
+    <item android:bottom="6dp">
+        <shape>
+            <gradient
+                android:startColor="@color/buttonGradientStart"
+                android:endColor="@color/buttonGradientEnd"
+                android:angle="90"/>
+            <corners android:radius="22dp"/>
+        </shape>
+    </item>
+</layer-list>

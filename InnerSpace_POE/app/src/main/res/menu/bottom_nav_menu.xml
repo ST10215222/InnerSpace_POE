@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:itemIconTint="@color/primaryAccent"
+    app:itemTextColor="@color/primaryAccent">
 
     <item
         android:id="@+id/navigation_home"
@@ -7,13 +10,23 @@
         android:title="@string/title_home" />
 
     <item
-        android:id="@+id/navigation_dashboard"
-        android:icon="@drawable/ic_dashboard_black_24dp"
-        android:title="@string/title_dashboard" />
+        android:id="@+id/navigation_add_journal"
+        android:icon="@drawable/ic_add_journal_black_24dp"
+        android:title="@string/title_add_journal" />
+
+    <item
+        android:id="@+id/navigation_past_journal"
+        android:icon="@drawable/ic_past_journal_black_24dp"
+        android:title="@string/title_past_journal" />
 
     <item
         android:id="@+id/navigation_notifications"
-        android:icon="@drawable/ic_notifications_black_24dp"
-        android:title="@string/title_notifications" />
+        android:icon="@drawable/ic_motivations_black_24dp"
+        android:title="@string/title_motivations" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/title_settings" />
 
 </menu>

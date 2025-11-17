@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">InnerSpace_POE</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_add_journal">Add Journal</string>
+    <string name="title_past_journal">Past Journal</string>
+    <string name="title_motivations">Motivations</string>
+    <string name="title_settings">Settings</string>
 </resources>

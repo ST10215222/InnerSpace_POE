@@ -12,14 +12,27 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="student.projects.innerspace_poe.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_add_journal"
+        android:name="student.projects.innerspace_poe.ui.add_journal.AddJournalFragment"
+        android:label="@string/title_add_journal"
+        tools:layout="@layout/fragment_add_journal" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="student.projects.innerspace_poe.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_past_journal"
+        android:name="student.projects.innerspace_poe.ui.past_journal.PastJournalFragment"
+        android:label="@string/title_past_journal"
+        tools:layout="@layout/fragment_past_journal" />
+
+    <fragment
+        android:id="@+id/navigation_motivations"
+        android:name="student.projects.innerspace_poe.ui.motivations.MotivationsFragment"
+        android:label="@string/title_motivations"
+        tools:layout="@layout/fragment_motivations" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="student.projects.innerspace_poe.ui.settings.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
+
 </navigation>
